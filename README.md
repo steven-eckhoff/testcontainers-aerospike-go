@@ -7,9 +7,6 @@
 
 # testcontainers-aerospike-go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/ajeetdsouza/testcontainers-aerospike-go.svg)](https://pkg.go.dev/github.com/ajeetdsouza/testcontainers-aerospike-go)
-[![Go Report Card](https://goreportcard.com/badge/github.com/ajeetdsouza/testcontainers-aerospike-go)](https://goreportcard.com/report/github.com/ajeetdsouza/testcontainers-aerospike-go)
-
 Go library for **[Aerospike](https://aerospike.com/) integration testing via
 [Testcontainers](https://testcontainers.com/)**.
 
@@ -20,7 +17,7 @@ Go library for **[Aerospike](https://aerospike.com/) integration testing via
 Use `go get` to install the latest version of the library.
 
 ```bash
-go get -u github.com/ajeetdsouza/testcontainers-aerospike-go@latest
+go get -u github.com/steven-eckhoff/testcontainers-aerospike-go@latest
 ```
 
 ## Usage
@@ -32,7 +29,7 @@ import (
 
     "github.com/stretchr/testify/require"
     aero "github.com/aerospike/aerospike-client-go/v6"
-    aeroTest "github.com/ajeetdsouza/testcontainers-aerospike-go"
+    aeroTest "github.com/steven-eckhoff/testcontainers-aerospike-go"
 )
 
 func TestAerospike(t *testing.T) {
